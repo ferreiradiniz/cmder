@@ -1,0 +1,18 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Cmder]
+@="Abrir Cmder Aqui"
+"Icon"="D:\\Development Tools\\cmder\\Cmder.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Cmder\command]
+@="\"D:\\Development Tools\\cmder\\Cmder.exe\" \"%V\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Cmder]
+@="Abrir Cmder Aqui"
+"Icon"="D:\\Development Tools\\cmder\\Cmder.exe,0"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Cmder\command]
+@="\"D:\\Development Tools\\cmder\\Cmder.exe\" \"%1\""
+
+
+D:\\Development Tools\\cmder\\Cmder.exe

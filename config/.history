@@ -1,0 +1,10 @@
+ssh-keygen -t rsa -C "ferreiradiniz@msn.com"
+ssh-agent -s
+ssh-add c:\Users\Bruno\.ssh\id_rsa
+ssh -T git@github.com
+ssh-add c:\Users\Bruno\.ssh\id_rsa
+eval $(ssh-agent -s)
+eval "$(ssh-agent)"
+ssh-agent -s
+ssh-add c:\Users\Bruno\.ssh\id_rsa
+d:
