@@ -1,2 +1,2 @@
 # cmder
-Cmder shel com ssh agent
+Cmder shell com ssh agent
